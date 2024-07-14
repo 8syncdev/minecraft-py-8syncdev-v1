@@ -1,0 +1,8 @@
+# Môi trường
+venv
+# File build
+__pycache__
+*.pyc
+*.pyo
+# Env
+.env
