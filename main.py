@@ -5,6 +5,8 @@ from src.settings import (
 from ursina import *
 
 app = Ursina()
+from src.network.client import ClientService
+ClientService.create_services()
 
 from src.resources import * # tải tất cả các tài nguyên
 
