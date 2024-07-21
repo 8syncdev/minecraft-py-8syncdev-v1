@@ -19,3 +19,6 @@ arm_texture = load_texture(f'{TEXTURE_PATH}\\Arm_Texture.png')
 
 # load các âm thanh cần thiết cho game
 punch_sound = Audio(f'{SFX_PATH}\\Punch_sound.wav', loop=False, autoplay=False)
+
+# load các textures character cần thiết cho game
+character_texture = load_texture(f'{TEXTURE_PATH}\\character\\Butcher.png')

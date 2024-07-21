@@ -6,3 +6,6 @@ __pycache__
 *.pyo
 # Env
 .env
+# Model phát sinh
+*.bam
+*.mtl

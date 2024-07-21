@@ -4,19 +4,20 @@ from src.settings import (
 )
 from ursina import *
 
+# smartphones
+window.borderless = False
+
 app = Ursina()
+from src.resources import * # tải tất cả các tài nguyên
 from src.network.client import ClientService
 ClientService.create_services()
 
-from src.resources import * # tải tất cả các tài nguyên
+from src.entity.scene import hand
+# gen map from server side
 
-from src.entity.scene import sky, hand, Block
 
-from src.entity.genmap import gen_map
-gen_map()
-
-from src.entity.character import character
-from src.entity.event import update
+# from src.entity.character import user
+from src.entity.event import update, input
 
 setup_settings()
 
