@@ -8,8 +8,6 @@ from src.resources.load_textures import (
     arm_texture,
     # Sounds
     punch_sound,
-    # Character
-    character_texture
 )
 
 DICT_TEXTURES = {

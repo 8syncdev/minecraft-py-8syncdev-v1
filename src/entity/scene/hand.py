@@ -10,8 +10,8 @@ from src.settings import MODEL_PATH
 
 class Hand(Entity):
     def __init__(self):
-        self.passive_pos = Vec2(0.3, -0.6)
-        self.active_pos = Vec2(0.3, -0.5)
+        self.passive_pos = Vec2(0.8, -0.6)
+        self.active_pos = Vec2(0.8, -0.5)
         super().__init__(
             parent=camera.ui,
             model=f'{MODEL_PATH}\\Arm',
